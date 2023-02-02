@@ -14,5 +14,5 @@ Las variables se declaran y definen. Las variables comunes se pueden redefinir
 El operador DEL se utiliza para borrar datos y se utiliza por orden
 Tambien Hay operadores de pertinencia y operadores de identidad
 
-probando si se guarda correctamente
+
 
