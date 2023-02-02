@@ -1,0 +1,16 @@
+"String" -Solo se escribe en una linea-
+"""string """ -Se puede escribir en mas de una linea-
+
+int //Son numeros enteros
+float // Son numeros con coma 
+bool (Valores booleanos) //True o false (Se escribe con mayuscula la primer letra)
+
+
+
+--------------------------------------------------------------------------
+VARIABLES : Las variables son espacios que se almacenan en la memoria de nuestro programa para poder reutilizar datos 
+Las variables se declaran y definen. Las variables comunes se pueden redefinir 
+
+El operador DEL se utiliza para borrar datos y se utiliza por orden
+Tambien Hay operadores de pertinencia y operadores de identidad
+
