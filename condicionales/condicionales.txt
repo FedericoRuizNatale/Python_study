@@ -1,0 +1,12 @@
+pedazos de codigo que nos dicen:
+si esta condicion se cumple (true) el codigo se va a ejecutar
+si esta condicion no se cumple (false) el codigo no se va a ejecutar
+
+De lo contrario :
+codigo a ejecutar en caso de que la condicion no se Cumpla
+
+if edad >= 18
+    print("sos mayor de edad")
+
+    else:
+        print("sos menor de edad")
