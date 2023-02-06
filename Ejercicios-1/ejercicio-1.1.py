@@ -26,10 +26,13 @@ crudo_dalto = 3.5
 diferencia_con_min = 100 - dalto_curso / otros_cursos_min * 100
 diferencia_con_max = 100 - dalto_curso * 1000 // otros_cursos_max / 10 #(para que de un numero redondo)
 diferencia_con_promedio = 100 - dalto_curso / otros_cursos_promedio * 100
+print("------------------------")
+print("El curso de dalto dura: ")
+print(f'- un {diferencia_con_min}% menos que el más rapido')
+print(f'- un {diferencia_con_max}% menos que el más lento')
+print(f'- un {diferencia_con_promedio}% menos que el promedio')
 
-print(f'El curso de dalto dura un {diferencia_con_min}% menos que el más rapido')
-print(f'El curso de dalto dura un {diferencia_con_max}% menos que el más lento')
-print(f'El curso de dalto dura un {diferencia_con_promedio}% menos que el promedio')
+print("------------------------")
 
 #b) calculando el tiempo vacio promedio
 tiempo_vacio_promedio = 100 - otros_cursos_promedio / crudo_promedio * 100
@@ -39,13 +42,16 @@ tiempo_vacio_dalto = 100 - dalto_curso * 1000 // crudo_dalto / 10
 print(f'un curso promedio elimina un {tiempo_vacio_promedio}% de tiempo vacio')
 print(f'este curso eliminó el {tiempo_vacio_dalto}% de tiempo vacio')
 
-#c)
-diferencia_equivalencia_10_horas_de_curso_dalto = 10 * otros_cursos_promedio * 10 // dalto_curso / 10
+print("------------------------")
+
+#c)Mostrando diferencias si los cursos duran 10 horas
+diferencia_equivalencia_10_horas_de_curso_dalto = otros_cursos_promedio * 100 // dalto_curso / 10
 diferencia_equivalencia_10_horas_de_otros_cursos = 10 * dalto_curso / otros_cursos_promedio
 
 print(f'ver 10 horas del curso de dalto equivale a ver {diferencia_equivalencia_10_horas_de_curso_dalto} horas de otros cursos')
 print(f'ver 10 horas de otros cursos equivale a ver {diferencia_equivalencia_10_horas_de_otros_cursos} horas del curso de dalto')
 
+print("------------------------")
 
 
 
