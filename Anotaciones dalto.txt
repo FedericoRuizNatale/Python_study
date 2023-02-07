@@ -15,4 +15,9 @@ El operador DEL se utiliza para borrar datos y se utiliza por orden
 Tambien Hay operadores de pertinencia y operadores de identidad
 
 
+(iterar es recorrer un elemento en pedacitos, esos pedacitos en q se va a ir saltando lo define un iterador)
+Un elemento ITERABLE es un elemento que tiene un iterador que define como se va  a iterar.
+puede ser iterable cuando tiene algo que defina como se puede iterar
+si no tiene nada q indique como se va a iterar 
 
+CONTROL + H PARA REEMPLAZAR PALABRA POR OTRA 
