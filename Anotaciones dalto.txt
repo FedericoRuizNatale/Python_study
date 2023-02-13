@@ -26,3 +26,8 @@ CONTROL + H PARA REEMPLAZAR PALABRA POR OTRA
 #una funcion es un fragmento de codigo que podemos reutilizar en cualquier momento sin necesidad de repetir codigo
 #hace que el codigo sea mas mantenible en el tiempo y separable en modulos
 #hace que el codigo sea mas legible
+
+UN  MODULO ES CUALQ ARCHIVO.PY hay:
+-modulos de terceros
+-propios
+-de python
